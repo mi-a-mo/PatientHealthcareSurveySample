@@ -1,0 +1,49 @@
+<div class="container">
+  
+  <header class="header">
+    <h1 id="title">Patient Satisfaction Survey</h1>
+    <p id="description">Please complete this optional survey to help us continue to provide excellent patient care.</p>
+  </header>
+  
+  <form id="survey-form">
+    
+    <label id="name-label" for="name">Name: <input id="name" type="text" placeholder="Last Name, First Name" required></label>
+    
+    <label id="email-label" for="email">Email: <input id="email" type="email" placeholder="email@address.com" required></label><br>
+    
+    <ol>
+    
+    <li><label id="number-label" for="number</div>">In the past 90 days, how many times have you visited one of our facilities? <input id="number" type="number" min="1" max="99" placeholder="0-99" required</label>
+      
+    <li><label id="provider-label" for="dropdown">Please select your preferred provider from the dropdown: </label>
+      <select id="dropdown" name="provider">
+      <option value="abe">Cindy Abe, MD</option>
+      <option value="smith">Dan Smith, APN</option>
+      <option value="john">Gail John, MD</option>
+      <option value="wu">Helen Wu, DO</option>
+      </select>
+      
+      <li><label for="rating" id="rating-label">Overall, how satisfied were you with the services provided?</label><br>
+      <input type="radio" id="none" name="rating" value="0">Not at all Satisfied
+      <input type="radio" id="little" name="rating" value="1">A little Satisfied
+      <input type="radio" id="some" name="rating" value="2">Somewhat Satisfied
+      <input type="radio" id="very" name="rating" value="3">Very Satisfied
+      <input type="radio" id="most" name="rating" value="4">Extremely Satisfied
+        
+      <li><label for="referred" id="refer-label">How did you hear about us? (Check all that apply)</label><br>
+      <input type="checkbox" id="friend" name="rating" value="0">Friend
+      <input type="checkbox" id="relative" name="rating" value="1">Relative
+      <input type="checkbox" id="online" name="rating" value="2">Online Ad
+      <input type="checkbox" id="print" name="rating" value="3">Print/TV Ad
+      <input type="checkbox" id="other" name="rating" value="4">Other
+      
+      <li><label for="box" id="suggestion-label">Please, give any more comments or suggestions in the box below.</label><br>
+        <textarea id="textarea" name="box" rows="6" cols="50">Comments? Suggestions?</textarea><br> 
+        
+      </ol>
+   
+        <label id="submit-label" for="submit">Thank you for choosing us for your health care needs!</label><br>
+   
+        <button id="submit" type="submit">Submit Form</button>
+      
+</div>
